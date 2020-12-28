@@ -11,6 +11,8 @@ import avatarIcon from './images/circle-cropped.png';
 import { logout } from './features/userSlice';
 import { auth } from './firebase';
 import { useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
+import { selectUser } from './features/userSlice';
 
 function Header() {
 
@@ -37,7 +39,7 @@ function Header() {
                 <HeaderOption Icon={BusinessCenterIcon} title="Jobs" />
                 <HeaderOption Icon={ChatIcon} title="Messaging" />
                 <HeaderOption Icon={NotificationsIcon} title="Notifications" />
-                <HeaderOption avatar={avatarIcon} title="me"
+                <HeaderOption avatar={true} title="me"
                 onClick={logoutOfApp}
                 />
             </div>
