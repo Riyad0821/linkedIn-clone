@@ -7,12 +7,9 @@ import SupervisorAccountIcon from '@material-ui/icons/SupervisorAccount';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import ChatIcon from '@material-ui/icons/Chat';
-import avatarIcon from './images/circle-cropped.png';
 import { logout } from './features/userSlice';
 import { auth } from './firebase';
 import { useDispatch } from 'react-redux';
-import { useSelector } from 'react-redux';
-import { selectUser } from './features/userSlice';
 
 function Header() {
 
@@ -39,7 +36,7 @@ function Header() {
                 <HeaderOption Icon={BusinessCenterIcon} title="Jobs" />
                 <HeaderOption Icon={ChatIcon} title="Messaging" />
                 <HeaderOption Icon={NotificationsIcon} title="Notifications" />
-                <HeaderOption avatar={true} title="me"
+                <HeaderOption avatar={true} title="Me"
                 onClick={logoutOfApp}
                 />
             </div>
