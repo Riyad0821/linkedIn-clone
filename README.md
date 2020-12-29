@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # LinkedIn-Clone
 A professional social site
-## [Live Website] (https://linkedin-clonev1.netlify.app/)
+## [Live Website] (https://linkedin-clone-2b3c0.web.app/)
 
 ## Features
 * Responsive single-page web app.
