@@ -21,8 +21,12 @@ A professional social site
 8. etc
 
 ## Project Screen Shot(s)
-[Landing Page](src/images/loginPage.png)
-[Home Page](src/images/homePage.png)
+
+### Landing Page
+![Landing Page](src/images/loginPage.png)
+
+### Home Page
+![Home Page](src/images/homePage.png)
 
 
 ## Available Scripts
