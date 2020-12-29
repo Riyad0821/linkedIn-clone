@@ -1,5 +1,30 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
+
+# LinkedIn-Clone
+A professional social site
+## [Live Website] (https://linkedin-clonev1.netlify.app/)
+
+## Features
+* Responsive single-page web app.
+* Authorization for users.
+* A user can publish posts.
+
+## Using Technologies and libraries
+1. React.js
+2. Redux (Data management within React)
+3. Firebase Authorization
+4. Firebase Firestore (Realtime database)
+5. Firebase Hosting 
+6. Material UI
+7. React Flip Move animation package
+8. etc
+
+## Project Screen Shot(s)
+![Landing Page](src/images/loginPage.png)
+![Home Page](src/images/homePage.png)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
