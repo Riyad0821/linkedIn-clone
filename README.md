@@ -6,9 +6,9 @@ A professional social site
 ## [Live Website] (https://linkedin-clone-2b3c0.web.app/)
 
 ## Features
-* Responsive single-page web app.
-* Authorization for users.
-* A user can publish posts.
+* Responsive single-page web app with authorization for users.
+* Created feed for write and post status with realtime appearance.
+* Original LinkedIn like design and look.
 
 ## Using Technologies and libraries
 1. React.js
